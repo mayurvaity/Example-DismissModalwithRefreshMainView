@@ -13,6 +13,7 @@
 		0D3E8A5E2C0398D100606433 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 0D3E8A5D2C0398D100606433 /* Base */; };
 		0D3E8A602C0398D300606433 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D3E8A5F2C0398D300606433 /* Assets.xcassets */; };
 		0D3E8A632C0398D300606433 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 0D3E8A622C0398D300606433 /* Base */; };
+		0D3E8A6B2C0399C800606433 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3E8A6A2C0399C800606433 /* ModalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		0D3E8A5F2C0398D300606433 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D3E8A622C0398D300606433 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D3E8A642C0398D300606433 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D3E8A6A2C0399C800606433 /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +60,30 @@
 			children = (
 				0D3E8A562C0398D100606433 /* AppDelegate.swift */,
 				0D3E8A582C0398D100606433 /* SceneDelegate.swift */,
-				0D3E8A5A2C0398D100606433 /* ViewController.swift */,
-				0D3E8A5C2C0398D100606433 /* Main.storyboard */,
+				0D3E8A6C2C0399D600606433 /* Controllers */,
+				0D3E8A6D2C0399E400606433 /* Views */,
 				0D3E8A5F2C0398D300606433 /* Assets.xcassets */,
 				0D3E8A612C0398D300606433 /* LaunchScreen.storyboard */,
 				0D3E8A642C0398D300606433 /* Info.plist */,
 			);
 			path = "Example-DismissModalwithRefreshMainView";
+			sourceTree = "<group>";
+		};
+		0D3E8A6C2C0399D600606433 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0D3E8A5A2C0398D100606433 /* ViewController.swift */,
+				0D3E8A6A2C0399C800606433 /* ModalViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0D3E8A6D2C0399E400606433 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0D3E8A5C2C0398D100606433 /* Main.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D3E8A6B2C0399C800606433 /* ModalViewController.swift in Sources */,
 				0D3E8A5B2C0398D100606433 /* ViewController.swift in Sources */,
 				0D3E8A572C0398D100606433 /* AppDelegate.swift in Sources */,
 				0D3E8A592C0398D100606433 /* SceneDelegate.swift in Sources */,
